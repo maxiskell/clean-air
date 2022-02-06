@@ -182,7 +182,9 @@ class PlayScene extends Phaser.Scene {
       window.open("https://www.workman.com/products/clean-air/hardback")
     })
 
-    const jump = () => {
+    const jump = (e) => {
+      e.preventDefault()
+
       if (!this.isGameRunning) return
 
       // if jumping or game starting...
