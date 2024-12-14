@@ -179,7 +179,7 @@ class PlayScene extends Phaser.Scene {
     })
 
     this.orderBtn.on("pointerdown", () => {
-      window.open("https://www.workman.com/products/clean-air/hardback")
+      window.open("https://www.hachettebookgroup.com/titles/sarah-blake/clean-air/9781643753416/")
     })
 
     const jump = (e) => {
